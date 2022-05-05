@@ -1,0 +1,19 @@
+.page__wrapper{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.page{
+    padding:10px;
+    border: 1px, solid teal;
+    color:teal;
+    cursor:pointer;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.page__current{
+    border:2px solid orange;
+    font-weight:bold;
+    color:orange;
+}
