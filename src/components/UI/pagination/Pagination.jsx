@@ -11,7 +11,7 @@ const Pagination = ({page, totalPages, setPage}) =>{
 
     return <div className="page__wrapper">
         {pagesArray.map(p=>
-          <button className=
+          <button type="submit" className=
             {page===p ? 'page page__current' : 'page'} 
             key={p}
             onClick={()=>changePage(p)}

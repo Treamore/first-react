@@ -15,7 +15,7 @@ return (
         <CSSTransition
           key={post.id}
           timeout={500}
-          classNames='post'>
+          className='post'>
           <PostItem remove={remove} number={index+1} post={post} />
           </CSSTransition>
         )}
